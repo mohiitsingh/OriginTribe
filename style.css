@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 ;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
 }
@@ -15,7 +15,7 @@ li{
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 :root {
@@ -25,20 +25,19 @@ a{
 /* Styling the banner */
 .banner {
     background-color: #000;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     color: rgba(0, 193, 96, 1);
     font-size: 1rem;
 }
 
 /* Styling the navbar */
-.navbar {
+.navbars {
     background-color: #fff;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-    /* background-color: rebeccapurple; */
 }
 
 .logo{
@@ -59,15 +58,15 @@ a{
 }
 
 
-.nav-links {
+.nav-links1 {
     width: 50%;
     display: flex;
     justify-content: space-between;
-    gap: 2vw;
     align-items: center;
+    gap: 2vw;
 }
 
-.nav-links li a{
+.nav-links1 li a{
     color: brown;
 }
 
@@ -118,8 +117,53 @@ a{
     background-color: bisque;
     padding: 10px;
     flex-wrap: wrap;
+    cursor: pointer;
 }
+
 
 .mega-link{
     color: black;
+}
+
+/* ======================================================= */
+
+.about{
+    background-color: lightgreen;
+    display: flex;
+    
+}
+
+.left{
+    width: 50%;
+    padding: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 2vw;
+}
+
+.left h1{
+    color: brown;
+}
+
+.left p{
+    text-align: justify;
+}
+
+.left button{
+    border: none;
+    padding: 0.8vw 1.6vw;
+    background-color: green;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.right{
+    width: 50%;
+    padding: 10vw;
+}
+
+.right img{
+    width: 100%;
+
 }

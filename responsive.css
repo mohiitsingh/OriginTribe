@@ -1,20 +1,32 @@
 @media screen and (max-width: 1024px) {
-    .nav-button{
+    .nav-button {
         width: 10%;
     }
 
-    .btn {
+    .login-btn{
         display: none;
+    }
+
+    .about{
+        flex-direction: column;
+    }
+
+    .about .left{
+        width: 100%;
+    }
+
+    .about .right{
+        width: 100%;
     }
 
 }
 
 @media screen and (max-width: 834px) {
-    .logo{
+    .logo {
         width: 25%;
     }
 
-    .logo img{
+    .logo img {
         width: 4.5vw;
     }
 }
@@ -25,16 +37,16 @@
         line-height: 1rem;
     }
 
-    .logo{
+    .logo {
         width: 50%;
         order: 1;
     }
 
-    .logo img{
+    .logo img {
         width: 10vw;
     }
 
-    .nav-links {
+    .nav-links1 {
         display: none;
     }
 
@@ -43,8 +55,13 @@
         order: 2;
     }
 
-    .nav-button{
+    .nav-button {
         width: 15%;
+    }
+
+
+    .mega-links li {
+        margin: 5px 2px;
     }
 
 }
