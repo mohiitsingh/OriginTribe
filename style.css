@@ -10,7 +10,7 @@ body {
     height: 100%;
 }
 
-ul li{
+li{
     list-style: none;
 }
 
@@ -48,7 +48,7 @@ a{
 }
 
 .logo img {
-    width: 3vw; /* Adjust as needed */
+    width: 2.8vw; /* Adjust as needed */
     height: auto;
     margin-right: 10px;
 }
@@ -67,8 +67,13 @@ a{
     align-items: center;
 }
 
+.nav-links li a{
+    color: brown;
+}
+
 .nav-button{
     display: flex;
+    color: brown;
 }
 
 .search-item{
@@ -105,4 +110,16 @@ a{
 .menu-icon{
     display: none;
     cursor: pointer;
+}
+
+.mega-links{
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.mega-link{
+    color: black;
 }

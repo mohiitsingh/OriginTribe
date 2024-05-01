@@ -1,7 +1,21 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .nav-button{
-        width: 20%;
-        background-color: red;
+        width: 10%;
+    }
+
+    .btn {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 834px) {
+    .logo{
+        width: 25%;
+    }
+
+    .logo img{
+        width: 4.5vw;
     }
 }
 
@@ -22,7 +36,6 @@
 
     .nav-links {
         display: none;
-        background-color: yellow;
     }
 
     .menu-icon {
@@ -32,11 +45,6 @@
 
     .nav-button{
         width: 15%;
-    }
-
-
-    .btn {
-        display: none;
     }
 
 }
