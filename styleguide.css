@@ -2030,7 +2030,7 @@
     justify-content: center;
     position: relative;
     flex: 0 0 auto;
-    box-shadow: var(--drop-shadow-small);
+    /* box-shadow: var(--drop-shadow-small); */
   }
   
   .iphone-pro-max .footer-link {
@@ -2091,7 +2091,7 @@
     position: relative;
     align-self: stretch;
     flex: 0 0 auto;
-    box-shadow: var(--drop-shadow-small);
+    /* box-shadow: var(--drop-shadow-small); */
   }
   
   .iphone-pro-max.ipad-pro {
@@ -2421,6 +2421,7 @@
     flex: 0 0 auto;
     background-color: var(--primary500-main);
     box-shadow: var(--drop-shadow-xsmall);
+    cursor: pointer;
   }
   
   .iphone-pro-max .placeholder-text-10 {
@@ -2654,7 +2655,7 @@
     height: 44px;
     align-items: center;
     justify-content: center;
-    padding: 0px 48px;
+    padding: 12px 48px;
     position: relative;
     flex: 0 0 auto;
     border-radius: 4px;
@@ -2670,7 +2671,7 @@
     height: 44px;
     align-items: center;
     justify-content: center;
-    padding: 0px 48px;
+    padding: 12px 48px;
     position: relative;
     flex: 0 0 auto;
     border-radius: 4px;

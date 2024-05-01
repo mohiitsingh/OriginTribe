@@ -3,6 +3,7 @@
     padding: 0 ;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
+    /* overflow-x: hidden; */
 }
 
 html,
@@ -20,6 +21,10 @@ a{
 
 :root {
     --primary500-main: rgba(0, 193, 96, 1);
+}
+
+.wrapper{
+    width: 99%;
 }
 
 /* Styling the banner */
@@ -125,6 +130,11 @@ a{
     color: black;
 }
 
+/* 000000000000000000000 */
+.slide{
+    overflow-x: hidden;
+}
+
 /* ======================================================= */
 
 .about{
@@ -168,5 +178,19 @@ a{
 
 }
 
+/* ++++++++++++++++++++++++++++ */
 
 
+
+.primary-button, .primary-button-2{
+    padding: 10px !important;
+    cursor: pointer;
+}
+
+.add-to-cart-2{
+    cursor: pointer;
+}
+
+.footer-link{
+    cursor: pointer;
+}
