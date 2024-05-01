@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 600px) {
+    .banner {
+        font-size: 0.5rem;
+        line-height: 1rem;
+    }
+
+    .logo{
+        width: 50%;
+        order: 1;
+    }
+
+    .logo img{
+        width: 10vw;
+    }
+
+    .nav-links {
+        display: none;
+        background-color: yellow;
+    }
+
+    .menu-icon {
+        display: block;
+        order: 2;
+    }
+
+    .nav-button{
+        width: 15%;
+    }
+
+
+    .btn {
+        display: none;
+    }
+
+}
